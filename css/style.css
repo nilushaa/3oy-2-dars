@@ -1,0 +1,130 @@
+/* young-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/young-serif-v2-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/outfit-v11-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: #fff7fb;
+}
+.main-divv {
+  width: 100%;
+  max-width: 736px;
+ 
+}
+.img-box {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+.img-box img {
+}
+h1,
+h2 {
+  font-family: "Young Serif";
+}
+h1,
+h2 p {
+  color: #5f564d;
+}
+h1 {
+  color: #312e2c;
+}
+.main-nav {
+  border-radius: 30px;
+  background-color: #fff7fb;
+}
+.main-nav h2 {
+  color: #7a284e;
+  width: 400px;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Outfit";
+}
+.main-nav li {
+  color: #5f564d;
+  background-color: #fff7fb;
+  font-family: "Outfit";
+}
+
+.main-div {
+  width: 656px;
+  height: 204px;
+  gap: 24px;
+}
+.main-div h2 {
+  color: #854632;
+  width: 400px;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.main-div li {
+  color: #854632;
+  font-family: "Outfit";
+}
+.main-div2 {
+  width: 656px;
+  height: 332px;
+  gap: 24px;
+}
+.main-div2 h2 {
+  color: #854632;
+  width: 400px;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.main-div2 li {
+color: #5f564d;
+  font-family: "Outfit";
+}
+
+.main-div3 h2 {
+  color: #854632;
+  width: 400px;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main-div3,
+p {
+  color: #854632;
+  font-family: "Outfit";
+}
+.dot {
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  background-color: #7a284e;
+}
+.main-div3 li {
+  list-style: none;
+  color: #5f564d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  border-bottom: 1px solid #e3ddd7;
+  padding: 24px 0;
+  font-family: "Outfit";
+}
+
+.li-item{
+  gap: 300px;
+  color: #854632;
+}
